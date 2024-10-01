@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio de Santiago Salas</title>
+  <link rel="stylesheet" href="src/index.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="public/profile.png" alt="Santiago Salas" class="profile-image" />
+        <h1>Santiago Salas</h1>
+        <p class="role">App developer</p>
+      </div>
+      <div class="contact-info">
+        <div class="info-item">
+          <span class="icon">📧</span>
+          <div class="info-text">
+            <strong>EMAIL</strong><br />
+            goasss24@gmail.com
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="icon">📞</span>
+          <div class="info-text">
+            <strong>PHONE</strong><br />
+            3127802445
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="icon">🎂</span>
+          <div class="info-text">
+            <strong>BIRTHDAY</strong><br />
+            31/03/2004
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main>
+      <nav>
+        <ul>
+          <li><a href="#about" data-section="about">Sobre mi</a></li>
+          <li><a href="#resume" data-section="resume">Resumen</a></li>
+          <li><a href="#portafolio" data-section="portafolio" class="active">Portafolio</a></li>
+          <li><a href="#Experiencia" data-section="Experiencia">Experiencia</a></li>
+          <li><a href="#contact" data-section="contact">Contactos</a></li>
+        </ul>
+      </nav>
+      <section id="about" class="section" style="display: none">  
+        <h2 >HABILIDADES</h2>  
+        <div class="skills-container">  
+            <div class="skills-column">  
+                <h3 >Habilidades Duras</h3>  
+                <ul>  
+                    <li>Lenguajes de Programación C#</li>  
+                    <li>Desarrollo Web (HTML, CSS, JavaScript)</li>  
+                    <li>Gestión de Bases de Datos (SQL, NoSQL)</li>  
+                    <li>Control de Versiones (Git, GitHub)</li>  
+                    <li>Algoritmos y Estructuras de Datos</li>  
+                    <li>Gestión de Proyectos</li>  
+                </ul>  
+            </div>  
+            <div class="skills-column">  
+                <h3 >Habilidades Blandas</h3>  
+                <ul>  
+                    <li>Comunicación Efectiva</li>  
+                    <li>Trabajo en Equipo</li>  
+                    <li>Resolución de Problemas</li>  
+                    <li>Gestión del Tiempo</li>  
+                    <li>Adaptabilidad y Flexibilidad</li>  
+                    <li>Habilidades Sociales</li>  
+                </ul>  
+            </div>  
+        </div>  
+    </section>  
+      <section id="resume" class="section" style="display: none">  
+        <h2>RESUMEN</h2>  
+        <div class="education-container">  
+          <div class="education-item">  
+            <h3>Instituto técnico Fray Luis Amigo</h3>  
+            <span class="date">2019 — 2021</span>  
+            <p>Graduado con honores y excelentes notas</p>  
+          </div>  
+          <div class="education-item">  
+            <h3>Universidad Autónoma de Occidente</h3>  
+            <span class="date">2022</span>  
+            <p>Cursando Ingeniería Multimedia</p>  
+          </div>  
+        </div>  
+      </section>  
+       
+        <!-- Contenido de Resume -->
+      <section id="portafolio" class="section">
+        <!-- Contenido de Portfolio -->
+        <h2>PORTAFOLIO</h2>
+        <div class="blog-posts">
+          <article class="blog-post">
+            <a href="https://github.com/xSonts/Clase-3/tree/main/Ejercicio%201" target="_blank">
+              <img src="public/responsive.png" alt="responsive" />
+            </a>
+            <div class="post-info">
+              <span class="category">Pagina responsive</span> •
+              <span class="date">Sept , 2024</span>
+            </div>
+            <h3>Diseño de una pagina responsive</h3>
+            <p>
+              A traves de los principios de css se realizó una pagina responsive para 3 pantallas diferentes
+            </p>
+          </article>
+          <article class="blog-post">
+            <a href="https://github.com/edwinmgallego/clase-practica-css-jueves/tree/609435e4d6ea22e268110b74dda46ab679a4baf5/ssalas2220709"
+              target="_blank">
+              <img src="public/formulario.png" alt="formulario" />
+            </a>
+            <div class="post-info">
+              <span class="category">Formulario</span> •
+              <span class="date"> Sept , 2024</span>
+            </div>
+            <h3>Diseño de un formulario</h3>
+            <p>
+              Utilizando los principios de html se realizo un formulario que permitia la navegación por varias paginas
+            </p>
+          </article>
+          <article class="blog-post">
+            <a href="https://github.com/xSonts/Clase-8" target="_blank">
+              <img src="public/numeroMayor.png" alt="numeroMayor" />
+            </a>
+            <div class="post-info">
+              <span class="category">Logica número mayor</span> •
+              <span class="date"> sept , 2024</span>
+            </div>
+            <h3>Encontrar el número mayor</h3>
+            <p>
+              Utilizando la logica de JS se realizo una funcion que encuentre el número mayor
+            </p>
+          </article>
+          <article class="blog-post">
+            <a href="https://uao-my.sharepoint.com/:v:/g/personal/santiago_salas_uao_edu_co/EWnDSIFTNtdLguCA42gghMcBiM2yPLBHrQ8oJDLtacwtKg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OijeEm"
+              target="_blank">
+              <video src="public/modelado.mp4" autoplay loop></video>
+            </a>
+            <div class="post-info">
+              <span class="category">Modelado 3D</span> •
+              <span class="date">Oct , 2023</span>
+            </div>
+            <h3>Diseño de un arma 3D</h3>
+            <p>
+              Utilizando blender se realizo un modelo 3d de un arma del videojuego Black Ops 2
+            </p>
+          </article>
+          <article class="blog-post">
+            <a href="https://www.canva.com/design/DAGRUNFYzCM/Ra5eIJFSOYl7elFkACiNpA/edit?utm_content=DAGRUNFYzCM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              target="_blank">
+              <img src="https://www.justinjbird.me/images/apps/git.webp" alt="Git ignore" />
+            </a>
+
+            <div class="post-info">
+              <span class="category">Git Ignore</span> •
+              <span class="date">Agost , 2024</span>
+            </div>
+            <h3>Investigación sobre Git Ignore</h3>
+            <p>
+              Se realizó una investigación sobre como ignorar algunos archivos para subirlos a GitHub
+              realizando un paso a paso para esto.
+
+            </p>
+          </article>
+          <article class="blog-post">
+            <a href="https://github.com/xSonts/clase9" target="_blank">
+              <img src="public/sumatoria.png" alt="sumatoria" />
+            </a>
+            <div class="post-info">
+              <span class="category">Sumatoria contador</span> •
+              <span class="date">Sept , 2024</span>
+            </div>
+            <h3>Logica y diseño de un contador</h3>
+            <p>
+              Utilizando React se realizo el diseño y la funcionalidad de un contador
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="Experiencia" class="section" style="display: none">
+        <h2>EXPERIENCIA</h2>
+        <div class="blog-posts">
+          <article class="blog-post">
+            <img src="public/c-sharp.png" alt="C#" />
+            <div class="post-info">
+              <span class="category"> Experiencia en C#</span> •
+              <span class="date">1 AÑO</span>
+            </div>
+
+          </article>
+          <article class="blog-post">
+            <img src="public/html.png" alt="html" />
+            <div class="post-info">
+              <span class="category">Experiencia en HTML</span> •
+              <span class="date">1 AÑO</span>
+            </div>
+
+          </article>
+          <article class="blog-post">
+            <img src="public/python.png" alt="python" />
+            <div class="post-info">
+              <span class="category">Experiencia en Python</span> •
+              <span class="date">1 AÑO</span>
+            </div>
+          </article>
+          <article class="blog-post">
+            <img src="public/unity.png" alt="Best Fonts" />
+            <div class="post-info">
+              <span class="category">Experiencia en manejo de unity</span> •
+              <span class="date">1 AÑO</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="contact" class="section" style="display: none">
+        <h2>CONTACTOS</h2>
+        <!-- Contenido de Contact -->
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>

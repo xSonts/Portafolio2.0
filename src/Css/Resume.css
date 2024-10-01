@@ -1,0 +1,41 @@
+#resume {  
+    border: #444 solid;
+    color: #fff;   
+    border-radius: 8px; /* Bordes redondeados */  
+  }  
+  
+  .education-container {  
+    border-top: 2px solid var(--accent-color); /* Línea superior para separar el título */  
+    padding-top: 1rem; /* Espaciado superior */  
+  }  
+  
+  .education-item {  
+    margin-bottom: 1.5rem;  
+    padding: 1rem; /* Espaciado interno */  
+    border: 1px solid #444; /* Borde sutil */  
+    border-radius: 5px; /* Bordes redondeados */  
+    transition: background-color 0.3s; /* Transición suave */  
+  }  
+  
+  .education-item:hover {  
+    background-color: #333; /* Cambio de fondo al pasar el mouse */  
+  }  
+  
+  .education-item h3 {  
+    font-size: 1.5rem; /* Aumentar tamaño del título */  
+    color: var(--accent-color); /* Color del título */  
+    margin-bottom: 0.3rem;  
+  }  
+  
+  .education-item .date {  
+    font-size: 1rem; /* Aumentar tamaño de la fecha */  
+    color: #bbb; /* Texto gris para las fechas */  
+    margin-bottom: 0.5rem;  
+    display: block;  
+  }  
+  
+  .education-item p {  
+    font-size: 1rem; /* Aumentar tamaño del texto */  
+    color: #ccc; /* Texto gris claro */  
+    line-height: 1.6;  
+  }
