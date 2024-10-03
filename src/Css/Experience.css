@@ -2,10 +2,13 @@
     height: 380px;
   }
   #Experiencia img{
-    height: 300px;
+    margin-top: 10px;
+    object-fit: contain;
+    height: 280px;
   
   }
-  #Experiencia .category{
+  #Experiencia .post-info{
     color: white;
-    border-bottom: var(--accent-color) solid 1px;
+    border-bottom: #444 solid 1px;
   }
+  

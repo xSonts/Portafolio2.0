@@ -36,7 +36,7 @@ const Experience = ({ isVisible }) => {
         <article className="blog-post">
           <img src={unityImage} alt="Unity" />
           <div className="post-info">
-            <span className="category">Experiencia en manejo de Unity</span> •
+            <span className="category">Experiencia en Unity</span> •
             <span className="date">1 AÑO</span>
           </div>
         </article>
