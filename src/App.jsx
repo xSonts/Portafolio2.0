@@ -25,10 +25,10 @@ function App() {
         <Portfolio isVisible={activeSection === 'portafolio'} />
 
         {/* Sección Resumen */}
-        <Resume isVisible={activeSection === 'resume'} />
+        <Resume isVisible={activeSection === 'resumen'} />
 
         {/* Sección Acerca de mí */}
-        <About isVisible={activeSection === 'about'} />
+        <About isVisible={activeSection === 'habilidades'} />
 
         {/* Sección Experiencia */}
         <Experience isVisible={activeSection === 'experiencia'} />

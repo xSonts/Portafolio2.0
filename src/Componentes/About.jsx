@@ -4,7 +4,7 @@ import '../Css/About.css'
 const About = ({ isVisible }) => {
     if (!isVisible) return null;
     return (
-        <section id="about" className="section">
+        <section id="habilidades" className="section">
             <h2>HABILIDADES</h2>
             <div className="skills-container">
                 <div className="skills-column">
@@ -16,6 +16,7 @@ const About = ({ isVisible }) => {
                         <li>Control de Versiones (Git, GitHub)</li>
                         <li>Algoritmos y Estructuras de Datos</li>
                         <li>Gestión de Proyectos</li>
+
                     </ul>
                 </div>
                 <div className="skills-column">

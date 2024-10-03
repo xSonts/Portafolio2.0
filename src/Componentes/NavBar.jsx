@@ -21,7 +21,7 @@ function Navbar({ activeSection, showSection }) {
         <span></span>
       </button>
       <ul className={isMenuOpen ? 'show' : ''}>
-        {['portafolio', 'resume', 'about', 'experiencia'].map((section) => (
+        {['portafolio', 'resumen', 'habilidades', 'experiencia'].map((section) => (
           <li key={section}>
             <a
               href="#"

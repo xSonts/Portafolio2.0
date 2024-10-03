@@ -1,8 +1,8 @@
-#about {
+#habilidades {
     padding: 2rem;
 }
 
-#about h2 {
+#habilidades h2 {
     justify-content: start;
     align-items: start;
     text-align: start;
@@ -16,6 +16,7 @@
 }
 
 .skills-column {
+    overflow: hidden;
     background-color: var(--bg-color);
     color: white;
     padding: 1.5rem;
@@ -23,35 +24,39 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-#about h3 {
+#habilidades h3 {
     border-bottom: 2px solid var(--accent-color);
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
 }
 
-#about ul {
+#habilidades ul {
+    z-index: 0;
     list-style-type: none;
     padding: 0;
 }
 
-#about li {
+#habilidades li {
+    z-index: 1; /* Asegúrate de que sea menor que el sidebar */
+    z-index: 0;
     margin: 0.8rem 0;
     padding-left: 1.5rem;
-    position: relative;
 }
 
-#about li::before {
+#habilidades li::before {
     content: "•";
     color: var(--accent-color);
-    position: absolute;
-    left: 0;
-    top: 0;
+    justify-content: start;
+    margin-right: 10px;
+    align-items: start;
 }
 
 @media (min-width: 768px) {
     .skills-container {
+        
         flex-direction: row;
         justify-content: space-between;
+        z-index: 10;
     }
 
     .skills-column {
@@ -62,7 +67,7 @@
 }
 
 @media (min-width: 1024px) {
-    #about {
+    #habilidades {
         padding: 3rem;
     }
 

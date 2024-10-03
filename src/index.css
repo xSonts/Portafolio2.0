@@ -84,7 +84,7 @@ main {
   color: var(--accent-color);
 }
 
-#about,#portafolio,#Experiencia , #resume{  
+#habilidades,#portafolio,#Experiencia , #resume{  
   padding: 20px;  
   border: #444 solid;
 }  
