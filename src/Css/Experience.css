@@ -1,0 +1,11 @@
+#Experiencia article{
+    height: 380px;
+  }
+  #Experiencia img{
+    height: 300px;
+  
+  }
+  #Experiencia .category{
+    color: white;
+    border-bottom: var(--accent-color) solid 1px;
+  }

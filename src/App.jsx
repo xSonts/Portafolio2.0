@@ -8,7 +8,7 @@ import NavBar from './Componentes/NavBar'; // Ruta corregida
 
 function App() {
   // Estado para controlar qué sección está activa
-  const [activeSection, setActiveSection] = useState('resume');
+  const [activeSection, setActiveSection] = useState('portafolio');
 
   // Función para cambiar la sección visible
   const showSection = (sectionId) => {

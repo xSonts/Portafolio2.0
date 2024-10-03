@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import profileIMG from '../assets/profile.png';
 import '../Css/Sidebar.css';
-
+import profile from '../assets/profile-user.png'
 const Sidebar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -10,9 +10,11 @@ const Sidebar = () => {
     };
 
     return (
+
         <>
+
             <button className="sidebar-toggle" onClick={toggleSidebar}>
-                {isOpen ? '✕' : ' ☺ '}
+                {isOpen ? '✕' : '👤'}
             </button>
             <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
                 <div className="profile">
@@ -44,6 +46,14 @@ const Sidebar = () => {
                             <br />
                             31/03/2004
                         </div>
+                    </div>
+                    <div class="redes">
+                        <a href="https://www.instagram.com/tu_usuario" target="_blank" class="redes-icono">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@tu_usuario" target="_blank" class="redes-icono">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
                     </div>
                 </div>
             </aside>

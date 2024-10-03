@@ -3,6 +3,7 @@ import cSharpImage from '../assets/c-sharp.png';
 import htmlImage from '../assets/html.png';
 import pythonImage from '../assets/python.png';
 import unityImage from '../assets/unity.png';
+import '../Css/Experience.css'
 
 const Experience = ({ isVisible }) => {
   if (!isVisible) return null; // Si la sección no es visible, no renderiza nada
