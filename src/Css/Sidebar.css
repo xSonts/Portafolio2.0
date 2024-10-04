@@ -103,7 +103,7 @@
   }
   
   .redes-icono:hover {
-    color: #ff4081; 
+    color: var(--accent-color); 
   }
 
 @media (min-width: 768px) {

@@ -54,6 +54,9 @@ const Sidebar = () => {
                         <a href="https://www.tiktok.com/@tu_usuario" target="_blank" class="redes-icono">
                             <i class="fab fa-tiktok"></i>
                         </a>
+                        <a href="https://github.com/xSonts" target="_blank" class="redes-icono">
+                            <i class="fab fa-github"></i>
+                        </a>
                     </div>
                 </div>
             </aside>
