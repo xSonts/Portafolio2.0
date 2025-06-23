@@ -1,7 +1,7 @@
 import React from 'react'
 import Modelado from '../assets/modelado.mp4'
 import numeroMayor from '../assets/numeroMayor.png'
-import responsive from '../assets/responsive.png'
+import responsive from '../assets/g_habits.png'
 import formulario from '../assets/formulario.png'
 import sumatoria from '../assets/sumatoria.png'
 import Componentes from '../assets/componentes.png'
@@ -16,16 +16,17 @@ const Portafolio = ({ isVisible }) => {
             <h2>PORTAFOLIO</h2>
             <div class="blog-posts">
                 <article class="blog-post">
-                    <a href="https://github.com/xSonts/Clase-3/tree/main/Ejercicio%201" target="_blank">
+                    <a href="https://www.figma.com/proto/dn4NCPcbyHyAX3v6b19PKP/G-Habits-FINAL?page-id=3706%3A8636&node-id=3706-10761&starting-point-node-id=3706%3A10761&t=NBKo3w4H0HnleA5W-1" target="_blank">
                         <img src={responsive} alt="responsive" />
                     </a>
                     <div class="post-info">
-                        <span class="category">Pagina responsive</span> •
+                        <span class="category">Diseño UI/UX G Habits</span> •
                         <span class="date">Sept , 2024</span>
                     </div>
-                    <h3>Diseño de una pagina responsive</h3>
+                    <h3>Diseño UX/UI</h3>
                     <p>
-                        A traves de los principios de css se realizó una pagina responsive para 3 pantallas diferentes
+                        Diseño UX/UI de una aplicación movil enfocada en ayudar a mejorar los habitos alimenticios
+                        de los estudiantes universitarios
                     </p>
                 </article>
                 <article class="blog-post">
